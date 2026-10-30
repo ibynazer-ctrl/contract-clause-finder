@@ -56,8 +56,7 @@ I tested on four real contracts from public SEC filings (EDGAR):
 | Executive employment agreement (CEO, investment company, 2015) | 12 of 13 quotes verified |
 | Executive employment agreement (COO, same company, same day) | Testing in progress |
 | Confidentiality agreement from a pharmaceutical acquisition (2024) | 12 of 12 quotes verified; correctly labeled **mixed** |
-| Mutual non-disclosure agreement, biotech company (2022) | Testing in progress |
-
+| Mutual non-disclosure agreement, biotech company (2022) | 8 of 8 quotes verified; correctly labeled **mutual** |
 Highlights from testing:
 - It caught an **auto-renewal requiring 90 days' notice**, a **12-month non-compete**, and a **garden leave** provision in the employment agreement.
 - In the acquisition NDA, it found an **18-month standstill**, **clean team** access rules, and a clause where the buyer **refused to receive** certain scientific data — and correctly identified the agreement as mostly one-way but with shared confidentiality about the deal talks.
